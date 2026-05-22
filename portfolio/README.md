@@ -19,6 +19,8 @@ docker-compose.yml - запуск nginx и postgres
 
 ## Запуск
 
+**Скрипты:**
+
 cd scripts
 
 bash clean_min.sh 
@@ -28,6 +30,8 @@ bash sysinfo.sh
 bash check_scripts.sh
 
 bash check_disk.sh 
+
+**Docker:**
 
 cd docker 
 
