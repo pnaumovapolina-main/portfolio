@@ -5,25 +5,30 @@
 
 ## Содержимое 
 
-scripts/ 
+**scripts/** 
 
 - clean_min.sh - очистка системы 
 - sysinfo.sh - информация о системе 
 - check_scripts.sh - проверка синтаксиса 
 - check_disk.sh - мониторинг диска 
 
-docker/ - 
+**docker/**
 
 docker-compose.yml - запуск nginx и postgres 
 
 
 ## Запуск
 
-cd scripts 
+cd scripts
+
 bash clean_min.sh 
+
 bash sysinfo.sh 
-bash check_scripts.sh 
+
+bash check_scripts.sh
+
 bash check_disk.sh 
 
 cd docker 
+
 sudo docker-compose up -d
